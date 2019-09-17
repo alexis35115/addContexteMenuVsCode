@@ -16,7 +16,7 @@ Pour avoir Visual Studio Code dans le menu contextuel directement suite à l'ins
 
 Se rendre à l'[adresse](https://github.com/alexis35115/addContexteMenuVsCode) et cliquer sur le bouton "Clone or download" et dans le menu cliquer sur l'option "Download ZIP". Se référer à l'image ici-bas :
 
-![alt text](https://raw.githubusercontent.com/alexis35115/addContexteMenuVsCode/master/img/CloneOrDownload.PNG)
+![alt text](https://raw.githubusercontent.com/alexis35115/addContexteMenuVsCode/master/img/CloneOrDownloadExample.PNG)
 
 ### Identifiant l'endroit de l'installation de Visual Studio Code
 
