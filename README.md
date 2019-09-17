@@ -2,18 +2,43 @@
 
 ## Gains
 
-Ça permet d'ouvrir rapidement un répertoire directement dans Visual Studio code.
+Ça permet d'ouvrir rapidement un répertoire directement dans Visual Studio code via le menu contextuel.
 
 ## Avoir l'option dans le menu contextuel lors de l'installation
 
-Pour avoir Visual Studio Code dans le menu contextuel directement suite à l'installation, il faut s'assurer de cocher les options suivantes : 
+Pour avoir Visual Studio Code dans le menu contextuel directement suite à l'installation, il faut s'assurer de cocher les options suivantes :
 
-## Étapes à suivre
+![alt text](https://raw.githubusercontent.com/alexis35115/addContexteMenuVsCode/master/img/addContextMenuDuringInstallation.png)
 
-### Identifiant l'endroit de l'installation de Visual Studio Code
+## Étapes à suivre dans le cas où l'option n'est pas présente dans le menu contextuel
 
 ### Télécharger le fichier "addContextMenuVsCode.reg"
 
+Se rendre à l'[adresse](https://github.com/alexis35115/addContexteMenuVsCode) et cliquer sur le bouton "Clone or download" et dans le menu cliquer sur l'option "Download ZIP".
+
+### Identifiant l'endroit de l'installation de Visual Studio Code
+
+Voici la procédure à suivre pour savoir à quel endroit se trouve votre installation de Visual Studio Code.
+
+- Faire un clique droit sur l'icône de Visual Studio Code et cliquer sur "Propriétés"
+- Copier le nom du dossier qui se trouve dans "Cible". Par exemple, C:\Users\garonmichauda\AppData\Local\Programs\Microsoft VS Code\
+
+### Modifier le fichier registre
+
+Ensuite, il faut dézipper le dossier téléchargé à partir de Github et faire un clique droit sur le fichier "addContextMenuVsCode.reg" et cliquer sur "Modifier".
+
+Dans l'éditeur de texte, il faut chercher et remplacer "C:\\Users\\garonmichauda\\AppData\\Local\\Programs\\Microsoft VS Code\\" et remplacer par l'endroit de votre installation. Prendre note qu'il faut mettre "\\" au lieu de "\".
+
+Sauvegarder le fichier.
+
 ### Exécuter un le fichier registre
 
-Steps to follow to add Visual Studio Code in the context menu
+Revenir dans le dossier dézippé et double cliquer sur le fichier "addContextMenuVsCode.reg" et accepter les modifications.
+
+## Validation
+
+Après avoir suivi les étapes vous devriez voir dans le menu contextuel des dossiers l'option "Open Folder in Code".
+
+## Prochaine étape
+
+Lorsque j'aurai du temps, je vais créer un script powershell pour automatiser le tout.
