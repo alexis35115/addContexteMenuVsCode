@@ -24,12 +24,12 @@ Voici la procédure à suivre pour savoir à quel endroit se trouve votre instal
 
 ![alt text](https://raw.githubusercontent.com/alexis35115/addContexteMenuVsCode/master/img/PropertiesVsCode.PNG)
 
-- Faire un clique droit sur l'icône de Visual Studio Code et cliquer sur "Propriétés"
+- Faire un clic droit sur l'icône de Visual Studio Code et cliquer sur "Propriétés"
 - Copier le nom du dossier qui se trouve dans "Cible". Par exemple, C:\Users\garonmichauda\AppData\Local\Programs\Microsoft VS Code\
 
 ### Modifier le fichier registre
 
-Ensuite, il faut dézipper le dossier téléchargé à partir de Github et faire un clique droit sur le fichier "addContextMenuVsCode.reg" et cliquer sur "Modifier".
+Ensuite, il faut dézipper le dossier téléchargé à partir de Github et faire un clic droit sur le fichier "addContextMenuVsCode.reg" et cliquer sur "Modifier".
 
 Dans l'éditeur de texte, il faut chercher et remplacer "C:\\Users\\garonmichauda\\AppData\\Local\\Programs\\Microsoft VS Code\\" et remplacer par l'endroit de votre installation. Prendre note qu'il faut mettre "\\" au lieu de "\".
 
@@ -41,7 +41,9 @@ Revenir dans le dossier dézippé et double cliquer sur le fichier "addContextMe
 
 ## Validation
 
-Après avoir suivi les étapes vous devriez voir dans le menu contextuel des dossiers l'option "Open Folder in Code".
+Après avoir suivi les étapes, vous devriez voir dans le menu contextuel des dossiers l'option "Open Folder in Code". Voir l'image ici-bas :
+
+![alt text](https://raw.githubusercontent.com/alexis35115/addContexteMenuVsCode/master/img/Validation.PNG)
 
 ## Prochaine étape
 
