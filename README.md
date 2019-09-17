@@ -22,6 +22,8 @@ Se rendre à l'[adresse](https://github.com/alexis35115/addContexteMenuVsCode) e
 
 Voici la procédure à suivre pour savoir à quel endroit se trouve votre installation de Visual Studio Code.
 
+![alt text](https://raw.githubusercontent.com/alexis35115/addContexteMenuVsCode/master/img/PropertiesVsCode.PNG)
+
 - Faire un clique droit sur l'icône de Visual Studio Code et cliquer sur "Propriétés"
 - Copier le nom du dossier qui se trouve dans "Cible". Par exemple, C:\Users\garonmichauda\AppData\Local\Programs\Microsoft VS Code\
 
